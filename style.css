@@ -1,0 +1,37 @@
+nav {
+    margin: auto;
+}
+
+.nav-flex {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    background-color: azure;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.nav-item {
+    margin: 1em;
+    width: 10vw;
+    text-align: center;
+    font-size: 1em;
+}
+
+.main {
+    display: inline-block;
+    background-image: url("https://images.unsplash.com/photo-1535957998253-26ae1ef29506?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHdvcmtzcGFjZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=400&q=60");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 100%;
+    margin: 5em 10em 0 13em;
+}
+
+.main h1 {
+    background-color: white;
+    margin: -53px;
+    padding: 5px;
+    width: 768px;
+    text-align: center;
+}
